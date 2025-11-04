@@ -1,4 +1,4 @@
-# Calculadora de Parcelas
+# Calculadora de Boletos
 
 Uma aplicação em Python para calcular parcelas a partir de data inicial, intervalo e valor total.
 

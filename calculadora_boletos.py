@@ -8,6 +8,7 @@ def calcular_parcelas():
     intervalo_primeira = int(input("Intervalo da primeira parcela (dias): "))
     qtd_parcelas = int(input("Quantidade de parcelas: "))
     intervalo_entre = int(input("Intervalo entre parcelas (dias): "))
+    # Aceita vírgula como separador decimal (padrão brasileiro: 1500,50)
     valor_total = float(input("Valor total (R$): ").replace(",", "."))
 
     # Conversão da data
